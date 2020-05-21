@@ -33,5 +33,5 @@ CONSTRAINT FK_Product_User FOREIGN KEY(userId)
 	ON UPDATE CASCADE)
 
 INSERT INTO Users(login, password, eMail, phoneNumber, fName, sName, permision) VALUES ('admin', 'admin', 'admin@admin.com', '+380977777777', 'admin', 'admin', '1'),
-('Smaly', '123456', 'smaly@gmail.com', '+380911111111', 'Игорь', 'Смоляков', '0')
+('Smaly', '123456', 'smaly@gmail.com', '+380911111111', 'Igor', 'Smolyakow', '0')
 
